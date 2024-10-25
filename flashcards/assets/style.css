@@ -12,3 +12,21 @@ footer{
 footer p {
     text-align: center; 
     font-size: 0.9rem;
+    .cartão{
+        margin: 1rem 1rem;
+    }
+    .cartão{
+        margin: 1rem 1rem;
+        background-color:aquamarine;
+    }
+    .cartão{
+        margin: 1rem 1rem;
+        background-color:antiquewhite;
+        height: 20rem;
+        flex-grow: 1;
+    }
+    .cartão{
+        margin: 2rem 1rem;
+        background-color:aquamarine;
+        height:20rem;
+        flex-grow: 1rem
