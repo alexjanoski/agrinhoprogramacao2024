@@ -8,13 +8,20 @@ footer{
     position: fixed;
     bottom: 0;
     width: 100%;
+    heigth: 2rem;
 }
 footer p {
     text-align: center; 
-    font-size: 0.9rem;
+    font-size: 0.6rem;
     .cartão{
-        margin: 1rem 1rem;
+        margin-top: 0.5rem;
+    
     }
+    body{
+        background-color:blue;
+        front-family:   Bai jamjuree;
+    }
+
     .cartão{
         margin: 1rem 1rem;
         background-color:aquamarine;
