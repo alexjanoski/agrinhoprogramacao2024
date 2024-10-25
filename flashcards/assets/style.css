@@ -15,11 +15,13 @@ footer p {
     font-size: 0.6rem;
     .cartão{
         margin-top: 0.5rem;
-    
     }
     body{
         background-color:blue;
         front-family:   Bai jamjuree;
+    }
+    #container{
+        display: flex;
     }
 
     .cartão{
