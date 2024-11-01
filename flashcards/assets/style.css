@@ -31,4 +31,8 @@ footer p {
         heigth: 20rem;
         flex-grow: 1;
         flex-basis: calc(33% - 6rem);
+        text-align: center;
+        background-color:aquamarine ;
+        height: 100
+    
     }
