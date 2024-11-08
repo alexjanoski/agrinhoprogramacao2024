@@ -1,56 +1,47 @@
 body {
-    background-color: rgba(64, 31, 233, 0.638);
-    color:black;
-    font-family: georgia, timse 'Times New Roman', Times, serif;
+    background-color: whitesmoke;
+    color: black;
     }
 
 footer{ 
-    background-color:  rgba(21, 170, 170, 0.823);
-    color: fixed;
+    background-color:  black;
+    color: white;  
     position: fixed;
     bottom: 0;
     width: 100%;
-    heigth: 2rem;
 }
-
 footer p {
     text-align: center; 
-    font-size: 0.6rem;
-    .cartão{
-        margin-top: 0.5rem;
-    }
-    body{
-        background-color:blue;
-        front-family:   Bai jamjuree;
-    }
-    #container{
-        display: flex;
-    }
+    font-size: 0.9rem;
+    margin-top: 0.5rem;
+}
 
-    .cartão{
-        margin: 1rem 1rem;
-        background-color:aquamarine;
-        background-color:antiquewhite;
-        heigth: 20rem;
-        flex-grow: 1;
-        flex-basis: calc(33% - 6rem);
-        text-align: center;
-        background-color:aquamarine ;
-        height: 100%;
-    }
-    .cartão_conteudo h3 {
-        background-color: tomato;
-        text-align: left;
-        padding: 0.5rem;
-        position: absolute;
-        margin: 0.6rem;
-        border-radius: 0.6rem;
-        font-size: 1vw;
-    }
+#container {
+    display: flex;
+  }
 
+.cartao{
+margin: 1rem 1rem;
+background-color: rgb(211, 207, 206);
+height:20 rem;
+flex-grow: 1;
+flex-basis: calc(33%- 6rem);
 
+.cartao__conteudo {
+    text_aling: center;
+    background-color: rgb(48, 82, 87);
+    height: 100%;
+}
+.cartao__conteudo h3 {
+    background-color: rgb(153, 111, 60);
+    text-align: left;
+    padding: 0.5rem;
+    position: absolute;
+    margin: 0.6rem;
+    border-radius: 0.6rem;
+    font-size: 1vw;
+}
 
-
-
-
-    
+.cartao__conteudo p{
+    text-align: center;
+}
