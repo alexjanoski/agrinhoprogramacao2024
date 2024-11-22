@@ -40,6 +40,8 @@ flex-basis: calc(33%- 6rem);
     margin: 0.6rem;
     border-radius: 0.6rem;
     font-size: 1vw;
+    backface-visibility: hidden;
+    transform: rotatey(180deg)
 }
 
 .cartao__conteudo p{
