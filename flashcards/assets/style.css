@@ -43,9 +43,9 @@ flex-basis: calc(33%- 6rem);
 }
 
 .cartao__conteudo p{
-    
+    background-color: var(--card-front-color);
     text-align: center;
     height:100%;
-    background-color:var(--card-fron-color);
-    font-weight: 700;
+    transform-style: preserve-3d;
+    transition:transform 300ms ease-in-out;
 }
